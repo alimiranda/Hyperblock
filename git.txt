@@ -2,6 +2,16 @@ Hola, este documento se hiz para ensayan rm y reset en git.
 
 Ya ensayé git reset HEAD, no hace daños, solo elimina el documento de "la bandeja de salida"
 .
+git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de 
+la rama principal y todo el historial de cambios en la carpeta .git.
+git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los 
+cambios al servidor remoto.
+git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro 
+repositorio local (en caso de que hayan, por supuesto).
+git merge: También usamos el comando git merge con servidores remotos. Lo necesitamos para 
+combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
+git pull: Básicamente, git fetch y git merge al mismo tiempo.
+
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
 git log --stat - Explica el número de líneas que se cambiaron brevemente.
