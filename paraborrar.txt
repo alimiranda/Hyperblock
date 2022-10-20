@@ -1,3 +1,0 @@
-Hola, este documento se hiz para ensayan rm y reset en git. 
-
-Ya ensayé git reset HEAD, no hace daños, solo elimina el documento de "la bandeja de salida"
