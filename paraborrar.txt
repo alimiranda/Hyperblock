@@ -1,0 +1,1 @@
+Hola, este documento se hiz para ensayan rm y reset en git. 
