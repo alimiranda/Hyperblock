@@ -34,3 +34,7 @@ git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar may�
 git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
+
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+
+eval "$(ssh-agent -s)
