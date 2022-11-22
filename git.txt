@@ -38,3 +38,17 @@ git log > log.txt - guardar los logs en un archivo txt
 ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 
 eval "$(ssh-agent -s)
+
+
+git init
+git remote -v
+git remote add origin git@github.com:alimiranda/Fundamentos_BasesDeDatos.git
+git branch main
+git checkout main
+git config pull.rebase false     
+git pull origin main --allow-unrelated-histories
+git merge master     
+git -D master
+git push origin main
+
+git push -u origin master
